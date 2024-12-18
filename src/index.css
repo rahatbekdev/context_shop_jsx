@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+body {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background: url("src/assets/bg1.jpeg"); */
+  background: url("src/assets/i2.webp");
+  /* background: url("src/assets/pexels-ethan-brooke-1123775-2128042.jpg"); */
+  /* background: url("src/assets/pexels-marius-mann-772581-1637788.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  overflow: hidden;
+}
+.section-title {
+  /* color: #344955; */
+  color: #fff;
+}
+.products,
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cart-page,
+.detail-page {
+  padding: 2rem 5%;
+}
